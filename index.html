@@ -1,51 +1,590 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FYLLA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+
+<body class="body">
+    <nav class="navbar navbar-expand-lg" style="padding: 15px 30px;">
+        <div class="container-fluid col-lg-2">
+            <a class="navbar-brand" href="index.html" style="font-size: 30px; font-family:marcellus jost,roboto,sans-serif;"><img
+                    src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/636a2cb5715eea61d64a3119_logo.svg"
+                    alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse col-lg-6" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 navbar-nav-scroll gap-4"
+                style="--bs-scroll-height: 100px; margin-left: 100px;">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="services.html" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        SERVICE
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="Work.html" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        WORK
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="studio.html" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        STUDIO
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        PAGES
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"> page no.1</a></li>
+                        <li><a class="dropdown-item" href="#"> page no.2</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#"> page no.4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">CART()</a>
+                </li>
+            </ul>
+            <div class="row col-lg-3">
+                <a class="bt-first" href="contact.html">LET'S TALK</a>
+            </div>
+        </div>
     </nav>
-  </header>
-  
-  <section id="about">
-    <h2>About Me</h2>
-    <p>A brief description about your skills and experience.</p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project 1</h3>
-      <p>Description of the project.</p>
+    <div class="nav1">
+        <div class="line">
+        </div>
     </div>
-    <!-- Add more projects here -->
-  </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form action="contact.php" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
+    <main>
+        <!-- section 1 starts here -->
+        <section>
+            <div class="section1">
+                <div class="heading1">
+                    <div>
+                        <h1>
+                            We are a digital agency from Lisbon.
+                        </h1>
+                    </div>
+                    <div class="para">
+                        <p class="para1">
+                            Elevating brands through creative digital solutions, proudly representing Lisbon's vibrant
+                            innovation.
+                        </p>
+                    </div>
+                    <div class="img1">
+                        <img
+                            src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/6368b9b806470f39edce6e8b_icon-05.svg">
+                    </div>
+                </div>
+                <div class="video1">
+                    <video
+                        src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/636a217e1f2ae9daeb711f25_home-hero-05-transcode.mp4"
+                        autoplay muted loop disablePictureInPicture></video>
+                </div>
+            </div>
+            <div class="nav1" style="padding-top: 20px;">
+                <div class="line">
+                </div>
+            </div>
+        </section>
+        <!-- section 1 ends here  -->
+        <!-- section 2 starts here  -->
+        <section>
+            <div class="section2">
+                <div class="heading2">
+                    <h2>
+                        OUR CLIENTS
+                    </h2>
+                </div>
+                <div class="hr1">
+                    <div class="line3"></div>
+                </div>
+                <div class="s2group">
+                    <img src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/6368b9b577db5737da534831_client-01.svg"
+                        alt="">
+                    <img src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/6368b9b6e17d1bbfc64baa20_client-02.svg"
+                        alt="">
+                    <img src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/6368b9b57a46cdb0ad27034b_client-03.svg"
+                        alt="">
+                    <img src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/6368b9b564bdf4e41a49364c_client-04.svg"
+                        alt="">
+                    <img src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/6368b9b57a46cdfcf127034c_client-05.svg"
+                        alt="">
+                    <img src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/6368b9b59011170a3ae8e7fc_client-06.svg"
+                        alt="">
+                </div>
+            </div>
+            <div class="nav1" style="padding-top: 20px;">
+                <div class="line">
+                </div>
+            </div>
+        </section>
+        <!-- section 2 ends here -->
+        <!-- section 3 starts here  -->
+        <section>
+            <div class="section3">
+                <div class="heading3">
+                    <h3>
+                        WHAT WE DO
+                    </h3>
+                </div>
+                <div class="hr1">
+                    <div class="line41"></div>
+                </div>
+                <div class="part1">
+                    <div class="part2">
+                        <div class="brand">
+                            <img src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/6368b9b5a11997c7f3db2f2c_icon-01.svg"
+                                class="img10">
+                            <div>
+                                <h6 class="branding" style="font-size: 27px; font-weight: 400 ;">
+                                    BRANDING
+                                </h6>
+                                <p>
+                                    We craft compelling brand identities that leave a lasting impression.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hr1">
+                            <div class="line7"></div>
+                        </div>
+                        <div class="design">
+                            <img src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/6368b9b662c38afcba906a1f_icon-02.svg"
+                                class="img11">
+                            <div>
+                                <h6 class="branding" style="font-size: 27px; font-weight: 400 ;">
+                                    DESIGN
+                                </h6>
+                                <p>
+                                    We craft compelling brand identities that leave a lasting impression.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav2" style="padding-top: 20px; padding-bottom: 20px;">
+                        <div class="line">
+                        </div>
+                    </div>
+                    <div class="part3">
+                        <div class="video2">
+                            <img src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/6368b9b664bdf4605149364d_icon-03.svg"
+                                class="img12">
+                            <div>
+                                <h6 class="branding" style="font-size: 27px; font-weight: 400 ;">
+                                    VIDEO
+                                </h6>
+                                <p>
+                                    Captivating visual storytelling that engages and resonates with your audience.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hr1">
+                            <div class="line7"></div>
+                        </div>
+                        <div class="content">
+                            <img src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/6368b9b6df8f8507ee25ce0f_icon-04.svg"
+                                class="img13">
+                            <div>
+                                <h6 class="branding" style="font-size: 27px; font-weight: 400 ;">
+                                    CONTENT
+                                </h6>
+                                <p>
+                                    Engaging and persuasive content that captures attention and sparks meaningful
+                                    connections.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav1" style="padding-top: 15px;">
+                <div class="line">
+                </div>
+            </div>
+        </section>
+        <!-- section 3 ends here  -->
+        <!-- section 4 starts here  -->
+        <section>
+            <div class="section4">
+                <div class="heading7">
+                    <div class="heading4">
+                        <h4 class="" style="font-size: 60px; font-weight: 400;">
+                            FEARURED WORK
+                        </h4>
+                        <p style="font-size: 20px;">
+                            Showcasing our standout projects that blend creativity, strategy, and cutting-edge design.
+                        </p>
+                        <button class="button5">
+                            SEE ALL WORK
+                        </button>
+                    </div>
+                </div>
+                <div class="hr1">
+                    <div class="line41"></div>
+                </div>
+                <div class="s4part2">
+                    <div class="part2top">
+                        <img src="https://cdn.prod.website-files.com/63661389dd2417776f0d89fb/6369faf5dae2e9aa748edeaa_project-01.webp"
+                            class="img14">
+                        <h6>Dancing Stars</h6>
+                    </div>
+                    <div class="nav2 hide1" style="padding-top: 7px; padding-bottom: 20px;">
+                        <div class="line">
+                        </div>
+                    </div>
+                    <div class="s4part2bottom">
+                        <div class="part2top">
+                            <img src="https://cdn.prod.website-files.com/63661389dd2417776f0d89fb/6369fae804b5b0ea36ed1d10_project-02.webp"
+                                class="img14">
+                            <h6>Enjoy Silence</h6>
+                        </div>
+                        <div class="hr1 hide1">
+                            <div class="line4"></div>
+                        </div>
+                        <div class="part2top">
+                            <img src="https://cdn.prod.website-files.com/63661389dd2417776f0d89fb/6369fadaaa89f63186350b73_project-03.webp"
+                                class="img14">
+                            <h6>Pure Vision</h6>
+                        </div>
+                        <div class="part2top">
+                            <img src="https://cdn.prod.website-files.com/63661389dd2417776f0d89fb/6369fab6fb2692808936e774_project-04.webp"
+                                class="img14">
+                            <h6>Boring Brand</h6>
+                        </div>
+                        <div class="hr1 hide1">
+                            <div class="line4"></div>
+                        </div>
+                        <div class="part2top">
+                            <img src="https://cdn.prod.website-files.com/63661389dd2417776f0d89fb/6369faafe81233326efbe2c5_project-05.webp"
+                                class="img14">
+                            <h6>New Culture</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav1" style="padding-top: 15px;">
+                <div class="line">
+                </div>
+            </div>
+        </section>
+        <!-- section 4 ends here  -->
+        <!-- section 5 starts here  -->
+        <section>
+            <div class="section5">
+                <div class="service">
+                    <h6 style="font-size: small;">HOW WE WORK</h6>
+                    <h5>
+                        We help our clients succeed with innovative strategies.
+                    </h5>
+                    <img src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/6368b9b6df8f8507ee25ce0f_icon-04.svg"
+                        class="img16">
+                </div>
+                <div class="hr1">
+                    <div class="line4"></div>
+                </div>
+                <div>
+                    <p style="font-size: xx-large;" class="work">
+                        Through careful analysis, creative thinking, and a deep understanding of their goals, we empower
+                        businesses to surpass expectations and thrive in today's dynamic and competitive landscape.
+                    </p>
+                    <button style="margin-top: 30%;" class="button5 button51">
+                        OUR SERVICE
+                    </button>
+                </div>
+            </div>
+            <div class="nav1 our1" style="padding-top: 15px;">
+                <div class="line">
+                </div>
+            </div>
+        </section>
+        <!-- section 5 ends here  -->
+        <!-- section 6 starts here  -->
+        <section>
+            <div class="section6">
+                <div class="values">
+                    <h5>OUR VALUES </h5>
+                </div>
+            </div>
+            <div class="nav1" style="padding-top: 5px;">
+                <div class="line">
+                </div>
+            </div>
+        </section>
+        <!-- section 6 ends here  -->
+        <!-- section 7 starts here  -->
+        <section>
+            <div class="section7">
+                <div class="s7right">
+                    <img src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/63695645ae15af53f7884f58_home-values.webp"
+                        class="img17">
+                </div>
+                <div class="hr1">
+                    <div class="line4"></div>
+                </div>
+                <div class="s7left">
+                    <div class="vision">
+                        <span class="number">01</span>
+                        <div class="s7lefttop">
+                            <h6 style="font-size: xx-large;">
+                                VISION
+                            </h6>
+                            <p style="font-size: large;">
+                                Our relentless pursuit of a shared vision fuels our creativity and propels us forward.
+                                With clarity and foresight, we craft strategies that align with our clients' goals and
+                                aspirations, transforming their dreams into reality and shaping a future worth
+                                embracing.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="nav2" style="padding-top: 5px;">
+                        <div class="line">
+                        </div>
+                    </div>
+                    <div class="innovation">
+                        <span class="number">02</span>
+                        <div class="s7lefttop">
+                            <h6 style="font-size: xx-large;">
+                                INNOVATION
+                            </h6>
+                            <p style="font-size: large;">
+                                Innovation is at the core of everything we do. We embrace curiosity, explore uncharted
+                                territories, and challenge the status quo. By pushing boundaries and thinking outside
+                                the box, we create groundbreaking solutions that disrupt industries and inspire
+                                audiences.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="nav2" style="padding-top: 5px;">
+                        <div class="line">
+                        </div>
+                    </div>
+                    <div class="connection">
+                        <span class="number">03</span>
+                        <div class="s7lefttop">
+                            <h6 style="font-size: xx-large;">
+                                CONNECTION
+                            </h6>
+                            <p style="font-size: large;">
+                                We believe in the power of connection. We strive to build bridges between brands and
+                                their audiences, fostering genuine and lasting relationships. Through compelling
+                                storytelling and meaningful interactions, we create experiences that evoke emotions,
+                                strengthen bonds, and cultivate trust, ultimately turning customers into brand
+                                advocates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav1" style="padding-top: 25px;">
+                <div class="line">
+                </div>
+            </div>
+        </section>
+        <!-- section 7 ends here  -->
+        <!-- section 8 starts here  -->
+        <section>
+            <div class="section8">
+                <div class="service">
+                    <h6 style="font-size: small;">CONTACT</h6>
+                    <h5 class="s8contact">
+                        LET'S BRING YOUR BRAND TO NEXT LEVEL
+                    </h5>
+                    <img src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/6368b9b662c38afcba906a1f_icon-02.svg"
+                        class="img16">
+                </div>
+                <div class="hr1">
+                    <div class="line4"></div>
+                </div>
+                <div>
+                    <p style="font-size: xx-large;" class="work">
+                        Together, let's elevate your brand to new heights by unleashing its full potential and
+                        captivating your target audience.
+                    </p>
+                    <button class="button2 button52" style="margin-top: 60%;">
+                        OUR SERVICE
+                    </button>
+                </div>
+            </div>
+            <div class="nav1">
+                <div class="line">
+                </div>
+            </div>
+        </section>
+        <!-- section 8 ends here  -->
 
-  <footer>
-    <p>&copy; 2025 Your Name</p>
-  </footer>
+        <!-- section 9 starts here  -->
+        <section>
+            <div class="section9">
+                <div class="news">
+                    <h5>LATEST NEWS </h5>
+                </div>
+                <div>
+                    <button class="button5">
+                        SEE ALL
+                    </button>
+                </div>
+            </div>
+            <div class="nav1">
+                <div class="line">
+                </div>
+            </div>
+        </section>
+        <!-- section 9 ends here  -->
 
-  <script src="script.js"></script>
+        <!-- section 10 starts here  -->
+        <section>
+            <div class="section10">
+                <div class="branding">
+                    <img src="https://cdn.prod.website-files.com/63661389dd2417776f0d89fb/6369f155fb2692636d3656aa_blog-01-preview.webp"
+                        class="img14">
+                    <h6>BRANDING</h6>
+                    <p style="font-size: 25px;" class="para2">
+                        Things to Look for When Comparing Branding Alternatives
+                    </p>
+                </div>
+                <div class="hr1">
+                    <div class="line41"></div>
+                </div>
+                <div class="branding">
+                    <img src="https://cdn.prod.website-files.com/63661389dd2417776f0d89fb/6369f133abcbabd997eaf454_blog-02-preview.webp"
+                        class="img41">
+                    <h6>BRANDING</h6>
+                    <p style="font-size: 25px; font-family: 'Syne' , sans-serif;">
+                        5 Stand-out Features of Branding You Should Know
+                    </p>
+                </div>
+                <div class="hr1 hide2">
+                    <div class="line41"></div>
+                </div>
+                <div class="branding hide2">
+                    <img src="https://cdn.prod.website-files.com/63661389dd2417776f0d89fb/6369f124dae2e954a48e3eef_blog-03-preview.webp"
+                        class="img41">
+                    <h6>BRANDING</h6>
+                    <p style="font-size: 25px;" class="para2">
+                        Branding: What Real Customers Have to Say
+                    </p>
+                </div>
+            </div>
+            <div class="nav1">
+                <div class="line">
+                </div>
+            </div>
+        </section>
+        <!-- section 10 ends here  -->
+    </main>
+    <!-- main ends here  -->
+
+    <!-- footer starts here  -->
+    <footer>
+        <!-- section 11 starts here  -->
+        <section>
+            <div class="section11">
+                <div class="fright">
+                    <img src="https://cdn.prod.website-files.com/63661389dd2417f19a0d89d3/636a2cb5715eea61d64a3119_logo.svg"
+                        class="img111">
+                    <h6>
+                        fylla Digital Agency <br>
+                        Main street 16 <br>
+                        Delhi , Burari
+                    </h6>
+                    <div class="media">
+                        <a href="" class="social">IN</a>
+                        <a href="" class="social">TW</a>
+                        <a href="" class="social">FB</a>
+                    </div>
+                </div>
+                <div class="hr1">
+                    <div class="line4"></div>
+                </div>
+                <div class="fleft">
+                    <div class="pages">
+                        <div class="pages2">
+                            <h6 href="">PAGES</h6>
+                        </div>
+                        <div class="list1">
+                            <a href="">HOME</a>
+                            <a href="">SERVICE</a>
+                            <a href=""> CONTACT</a>
+                            <button class="button5">MORE TEMPLETES</button>
+                        </div>
+                    </div>
+                    <div class="cms">
+                        <div class="pages2">
+                            <h6 href="">CMS</h6>
+                        </div>
+                        <div class="list1">
+                            <a href="">WORK</a>
+                            <a href="">WORK SINGLE</a>
+                            <a href="">BLOG</a>
+                            <a href="">BLOG POST</a>
+                            <a href="">SHOP</a>
+                            <a href="">SHOP SINGLE</a>
+                        </div>
+                    </div>
+                    <div class="utility">
+                        <div class="pages">
+                            <h6 href="">UTILITY PAGES</h6>
+                        </div>
+                        <div class="list1">
+                            <a href="">404 ERROR PAGES</a>
+                            <a href="">PASSWORD PROTECTED</a>
+                            <a href="">STYLEGUIDE</a>
+                            <a href="">LICENCING</a>
+                            <a href="">CHANGELOG</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav1">
+                <div class="line">
+                </div>
+            </div>
+        </section>
+        <!-- section 11 ends here  -->
+
+        <!-- section 12 ends here  -->
+        <section>
+            <div class="section12">
+                <div class="heading12">
+                    <h6>
+                        © Made by <a href="">Pawel Gola</a>
+                        - Powered by <a href="">Web FLOW</a>
+                    </h6>
+                    <div class="list12">
+                        <h6>
+                            PRIVACY
+                        </h6>
+                        <h6>
+                            IMPRINT
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 12 ends here  -->
+    </footer>
+    <!-- footer ends here  -->
+    <!-- the end  -->
 </body>
+
 </html>
