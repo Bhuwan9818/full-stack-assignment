@@ -1,3 +1,4 @@
+
 <?php
 // Database connection settings
 $host = "localhost"; // Change to your database host if needed
