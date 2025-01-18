@@ -43,6 +43,30 @@ body{
     letter-spacing: 4px;
 }
 
+.hrhover::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    transition: width 0.4s ease-in-out;
+  }
+  .hrhover:hover::after{
+    width: 100%;
+  }
+  
+  .hrhover{
+    display: inline-block; 
+    position: relative;
+    color: black;
+    text-decoration: none;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
 /* navbar ends here  */
 
 /* section 1 starts here  */
@@ -504,7 +528,7 @@ a{
     color: black;
 }
 
-.list4{
+.list1{
     display: flex;
     flex-direction: column;
     gap: 20px;
