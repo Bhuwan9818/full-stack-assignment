@@ -132,6 +132,16 @@ ul{
     align-self: center;
 }
 
+.menu-icon{
+    display: none;
+}
+
+@media(max-width:991px){
+    .menu-icon{
+        display: block;
+    }
+}
+
 .social2{
     border: 1px solid black;
     border-radius: 50%;
@@ -152,6 +162,10 @@ ul{
 
 .section-dropdown{
     padding: 3% 0;
+}
+
+.showData{
+    display: flex;
 }
 
 /* navbar ends here  */
