@@ -413,11 +413,14 @@ h1{
   
   .faq-answer {
     display: none;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
     padding: 15px;
     font-size: 18px;
     color: #1d1c1c;
     font-weight: 500;
-    transition: ease 1s;
+    /* transition: all 0.5s ease; */
   }
 
   .section31{
